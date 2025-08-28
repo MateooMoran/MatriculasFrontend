@@ -18,7 +18,7 @@ function Home() {
         {/* Titulo con iconos */}
         <div className="text-center flex flex-1 flex-col pt-4">
           <h1 className="text-4xl py-5 font-bold text-main sm:text-[3em]">
-            Bienvenido 👋 <br />
+            Bienvenido al Sitema de 👋 <br />
             <span className="text-sec">Gestión de Matrículas</span>
           </h1>
           <p className="md:text-lg text-sec text-[1em]">
@@ -38,10 +38,10 @@ function Home() {
             <LogIn size={20} />
             Iniciar Sesión
           </Link>
-          {/* <Link to={"/register"} className="cursor-pointer bg-secondary text-terc py-3 px-6 text-base rounded-xl flex items-center justify-center gap-2 hover:opacity-90 hover:scale-105 transition transform shadow-md sm:text-lg">
+           {/* <Link to={"/register"} className="cursor-pointer bg-secondary text-terc py-3 px-6 text-base rounded-xl flex items-center justify-center gap-2 hover:opacity-90 hover:scale-105 transition transform shadow-md sm:text-lg">
             <UserPlus size={20} />
             Registrarse
-          </Link> */}
+          </Link>  */}
         </div>
       </div>
     </section>
