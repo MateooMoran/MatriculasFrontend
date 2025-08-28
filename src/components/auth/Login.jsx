@@ -116,7 +116,7 @@ function Login() {
                 {loading ? "Cargando..." : "Iniciar Sesión"}
               </button>
 
-              <div className="text-center mt-4 text-sm text-sec">
+              {/* <div className="text-center mt-4 text-sm text-sec">
                 ¿Aún no tienes una cuenta?{" "}
                 <Link
                   to="/register"
@@ -124,7 +124,7 @@ function Login() {
                 >
                   Regístrate aquí
                 </Link>
-              </div>
+              </div> */}
             </form>
           </div>
         </div>

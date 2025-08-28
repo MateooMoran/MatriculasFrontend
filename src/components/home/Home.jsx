@@ -38,10 +38,10 @@ function Home() {
             <LogIn size={20} />
             Iniciar Sesión
           </Link>
-          <Link to={"/register"} className="cursor-pointer bg-secondary text-terc py-3 px-6 text-base rounded-xl flex items-center justify-center gap-2 hover:opacity-90 hover:scale-105 transition transform shadow-md sm:text-lg">
+          {/* <Link to={"/register"} className="cursor-pointer bg-secondary text-terc py-3 px-6 text-base rounded-xl flex items-center justify-center gap-2 hover:opacity-90 hover:scale-105 transition transform shadow-md sm:text-lg">
             <UserPlus size={20} />
             Registrarse
-          </Link>
+          </Link> */}
         </div>
       </div>
     </section>
