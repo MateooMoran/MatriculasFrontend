@@ -1,6 +1,6 @@
 // Dashboard.jsx
+import storeAuth from '../context/storeAuth';
 import InformationCards from '../Dashboard/InformationCards';
-import storeAuth from "../context/storeAuth"
 function Dashboard() {
   const nombre = storeAuth((state) => state.nombre);
   const apellido = storeAuth((state) => state.apellido);
